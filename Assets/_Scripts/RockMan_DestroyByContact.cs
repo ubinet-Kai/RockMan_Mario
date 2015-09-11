@@ -14,8 +14,9 @@ public class RockMan_DestroyByContact : MonoBehaviour {
 			//m_animator.Play("RockMan_Bullet_Effect");
 			Destroy (other.gameObject);
 			Destroy (gameObject);
-		}
+			GetComponent<AudioSource>().Play();
 
+		}
 
 	}
 }

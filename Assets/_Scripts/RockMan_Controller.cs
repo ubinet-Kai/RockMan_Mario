@@ -97,6 +97,7 @@ public class RockMan_Controller : MonoBehaviour
 				{
 					nextFire = Time.time + fireRate;
 					Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+					GetComponent<AudioSource>().Play();
 					m_animator.Play ("Run_Attack");
 				}
 			}
@@ -124,15 +125,18 @@ public class RockMan_Controller : MonoBehaviour
 					if (m_rigidbody2D.velocity.y > 0.01 && m_rigidbody2D.velocity.y < 8)
 					{
 						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpUp_Attack");
 					} 
 					else if (m_rigidbody2D.velocity.y < 0.01)
 					{
 						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpDown_Attack");
 					}
 					else 	{
 						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpTop_Attack");
 					}
 				}
@@ -163,6 +167,7 @@ public class RockMan_Controller : MonoBehaviour
 				{
 					nextFire = Time.time + fireRate;
 					Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+					GetComponent<AudioSource>().Play();
 					m_animator.Play ("Attack");
 				}
 			}
