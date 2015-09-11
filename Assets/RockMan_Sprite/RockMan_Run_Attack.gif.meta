@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 02f968a0a76dd4134a75cd049fc33fd1
+timeCreated: 1441878197
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RockMan_Run_Attack_0
+    21300002: RockMan_Run_Attack_1
+    21300004: RockMan_Run_Attack_2
+    21300006: RockMan_Run_Attack_3
+    21300008: RockMan_Run_Attack_4
+    21300010: RockMan_Run_Attack_5
+    21300012: RockMan_Run_Attack_6
+    21300014: RockMan_Run_Attack_7
+    21300016: RockMan_Run_Attack_8
+    21300018: RockMan_Run_Attack_9
+    21300020: RockMan_Run_Attack_10
+    21300022: RockMan_Run_Attack_11
+    21300024: RockMan_Run_Attack_12
+    21300026: RockMan_Run_Attack_13
+    21300028: RockMan_Run_Attack_14
+    21300030: RockMan_Run_Attack_15
+    21300032: RockMan_Run_Attack_16
+    21300034: RockMan_Run_Attack_17
+    21300036: RockMan_Run_Attack_18
+    21300038: RockMan_Run_Attack_19
+    21300040: RockMan_Run_Attack_20
+    21300042: RockMan_Run_Attack_21
+    21300044: RockMan_Run_Attack_22
+    21300046: RockMan_Run_Attack_23
+    21300048: RockMan_Run_Attack_24
+    21300050: RockMan_Run_Attack_25
+    21300052: RockMan_Run_Attack_26
+    21300054: RockMan_Run_Attack_27
+    21300056: RockMan_Run_Attack_28
+    21300058: RockMan_Run_Attack_29
+    21300060: RockMan_Run_Attack_30
+    21300062: RockMan_Run_Attack_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RockMan_Run_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 176
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 176
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 175
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 175
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 175
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 175
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 175
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 120
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 120
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 120
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 120
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 120
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 120
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 120
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 120
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 63
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 63
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 63
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 63
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 63
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 64
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 64
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 4
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 4
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 4
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Run_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

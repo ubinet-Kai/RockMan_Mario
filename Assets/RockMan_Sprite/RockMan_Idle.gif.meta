@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: b82dd8dbd397d4a2eb8302cab6bcfba9
+timeCreated: 1441692189
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RockMan_Idle_0
+    21300002: RockMan_Idle_1
+    21300004: RockMan_Idle_2
+    21300006: RockMan_Idle_3
+    21300008: RockMan_Idle_4
+    21300010: RockMan_Idle_5
+    21300012: RockMan_Idle_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RockMan_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RockMan_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 3cd66cfc1329e4e0692efcedfb902b36
+timeCreated: 1441684927
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Run_Sprite_0
+    21300002: Run_Sprite_1
+    21300004: Run_Sprite_2
+    21300006: Run_Sprite_3
+    21300008: Run_Sprite_4
+    21300010: Run_Sprite_5
+    21300012: Run_Sprite_6
+    21300014: Run_Sprite_7
+    21300016: Run_Sprite_8
+    21300018: Run_Sprite_9
+    21300020: Run_Sprite_10
+    21300022: Run_Sprite_11
+    21300024: Run_Sprite_12
+    21300026: Run_Sprite_13
+    21300028: Run_Sprite_14
+    21300030: Run_Sprite_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Run_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 69
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 68
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 70
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 70
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 71
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 72
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 71
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 10
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 9
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 10
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 12
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 9
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 8
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 9
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

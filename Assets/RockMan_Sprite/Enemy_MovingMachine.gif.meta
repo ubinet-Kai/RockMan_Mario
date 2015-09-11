@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: b9af5e072668e49cead899568765fd0a
+timeCreated: 1441862468
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy_Mover_0
+    21300002: Enemy_Mover_1
+    21300004: Enemy_Mover_2
+    21300006: Enemy_Mover_3
+    21300008: Enemy_Mover_4
+    21300010: Enemy_Mover_5
+    21300012: Enemy_Mover_6
+    21300014: Enemy_Mover_7
+    21300016: Enemy_Mover_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemy_Mover_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 204
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 185
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 124
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 95
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 76
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 47
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 31
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy_Mover_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
