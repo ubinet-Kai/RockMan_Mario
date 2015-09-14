@@ -60,12 +60,15 @@
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\StartController.cs" />
      <Compile Include="Assets\UnityChan2D\Demo\Scripts\TimeController.cs" />
      <Compile Include="Assets\UnityChan2D\Scripts\UnityChan2DController.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_Boss_Mover.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Bullet_Mover.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Controller.cs" />
      <Compile Include="Assets\_Scripts\RockMan_DestroyByBoundary.cs" />
      <Compile Include="Assets\_Scripts\RockMan_DestroyByContact.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_DestroyByEnemy.cs" />
      <Compile Include="Assets\_Scripts\RockMan_EnemyShootingController.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Enemy_Mover.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_HealthController.cs" />
      <None Include="Assets\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Resource\Scifi Art Demo Pack\Demo Readme.txt" />
  <Reference Include="UnityEngine.UI">

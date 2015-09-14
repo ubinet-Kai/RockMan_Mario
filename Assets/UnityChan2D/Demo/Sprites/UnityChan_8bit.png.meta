@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 0926581c884b5496eaea0bd8ad02ae7f
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: UnityChan_8bit_0
+    21300002: UnityChan_8bit_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

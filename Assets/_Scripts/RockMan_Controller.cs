@@ -38,7 +38,7 @@ public class RockMan_Controller : MonoBehaviour
 		
 		// Rigidbody2D
 		m_rigidbody2D.gravityScale = 3.5f;
-		m_rigidbody2D.fixedAngle = true;
+		//m_rigidbody2D.fixedAngle = true;
 		
 		// BoxCollider2D
 		m_boxcollier2D.size = new Vector2(1, 2.5f);
@@ -196,7 +196,7 @@ public class RockMan_Controller : MonoBehaviour
 	
 	void OnTriggerStay2D(Collider2D other)
 	{
-		if (other.tag == "DamageObject" || other.tag == "Enemy" && m_state == State.Normal)
+		if (other.tag == "DamageObject" || other.tag == "Enemy" || other.tag == "Boss" || other.tag == "EnemyBullet" && m_state == State.Normal)
 		{
 			m_state = State.Damaged;
 			StartCoroutine(INTERNAL_OnDamage());

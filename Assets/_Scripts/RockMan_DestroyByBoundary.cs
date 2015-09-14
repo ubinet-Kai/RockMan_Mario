@@ -5,7 +5,7 @@ public class RockMan_DestroyByBoundary : MonoBehaviour {
 
 void OnTriggerExit2D(Collider2D other)
 	{
-		if (other.tag == "Bullet" || other.tag == "Enemy") 
+		if (other.tag == "Bullet" || other.tag == "Enemy" || other.tag == "EnemyBullet") 
 		{
 			Destroy(other.gameObject);
 		}
