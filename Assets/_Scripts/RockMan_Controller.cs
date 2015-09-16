@@ -8,7 +8,7 @@ public class RockMan_Controller : MonoBehaviour
 	public Vector2 backwardForce = new Vector2(-4.5f, 5.4f);
 
 	public float fireRate;
-	public Transform Spawn;
+	public Transform spawn;
 	public GameObject RockMan_Bullet;
 	
 	public LayerMask whatIsGround;
@@ -96,7 +96,7 @@ public class RockMan_Controller : MonoBehaviour
 				if (Time.time > nextFire) 
 				{
 					nextFire = Time.time + fireRate;
-					Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+					Instantiate (RockMan_Bullet, spawn.position, spawn.rotation);
 					GetComponent<AudioSource>().Play();
 					m_animator.Play ("Run_Attack");
 				}
@@ -124,18 +124,18 @@ public class RockMan_Controller : MonoBehaviour
 
 					if (m_rigidbody2D.velocity.y > 0.01 && m_rigidbody2D.velocity.y < 8)
 					{
-						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						Instantiate (RockMan_Bullet, spawn.position, spawn.rotation);
 						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpUp_Attack");
 					} 
 					else if (m_rigidbody2D.velocity.y < 0.01)
 					{
-						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						Instantiate (RockMan_Bullet, spawn.position, spawn.rotation);
 						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpDown_Attack");
 					}
 					else 	{
-						Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+						Instantiate (RockMan_Bullet, spawn.position, spawn.rotation);
 						GetComponent<AudioSource>().Play();
 						m_animator.Play ("JumpTop_Attack");
 					}
@@ -166,7 +166,7 @@ public class RockMan_Controller : MonoBehaviour
 				if(Time.time > nextFire)
 				{
 					nextFire = Time.time + fireRate;
-					Instantiate (RockMan_Bullet, Spawn.position, Spawn.rotation);
+					Instantiate (RockMan_Bullet, spawn.position, spawn.rotation);
 					GetComponent<AudioSource>().Play();
 					m_animator.Play ("Attack");
 				}
@@ -194,9 +194,9 @@ public class RockMan_Controller : MonoBehaviour
 		m_animator.SetBool("isGround", m_isGround);
 	}
 	
-	void OnTriggerStay2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "DamageObject" || other.tag == "Enemy" || other.tag == "Boss" || other.tag == "EnemyBullet" && m_state == State.Normal)
+		if (other.tag == "DamageObject" || other.tag == "Enemy" || other.tag == "Boss" || other.tag == "BossBullet" || other.tag == "EnemyBullet" && m_state == State.Normal)
 		{
 			m_state = State.Damaged;
 			StartCoroutine(INTERNAL_OnDamage());
@@ -212,12 +212,14 @@ public class RockMan_Controller : MonoBehaviour
 		
 		m_rigidbody2D.velocity = new Vector2(transform.right.x * backwardForce.x, transform.up.y * backwardForce.y);
 		
-		yield return new WaitForSeconds(.2f);
+		yield return new WaitForSeconds(.1f);
 		
 		while (m_isGround == false)
 		{
-			yield return new WaitForFixedUpdate();
+			//yield return new WaitForFixedUpdate();
+			break;
 		}
+
 		m_animator.SetTrigger("Invincible Mode");
 		m_state = State.Invincible;
 	}

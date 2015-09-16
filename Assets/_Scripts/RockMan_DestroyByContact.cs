@@ -3,14 +3,16 @@ using System.Collections;
 
 public class RockMan_DestroyByContact : MonoBehaviour {
 
-	//private Animator m_animator;
-
 	// Use this for initialization
 	private RockMan_HealthController healthController;
+	public GameObject explosion;
+
 
 	void Start()
 	{
-		GameObject healthControllerObject = GameObject.FindWithTag("Boss");
+
+		GameObject healthControllerObject = GameObject.FindWithTag("Player");
+
 		if (healthControllerObject != null) 
 		{
 			healthController = healthControllerObject.GetComponent<RockMan_HealthController>();
@@ -24,23 +26,26 @@ public class RockMan_DestroyByContact : MonoBehaviour {
 
 	void OnTriggerStay2D (Collider2D other)
 	{
-		if (other.tag == "DamageObject" || other.tag == "Enemy" || other.tag == "EnemyBullet")
+		if (other.tag == "DamageObject" || other.tag == "Enemy" || other.tag == "EnemyBullet" || other.tag == "BossBullet")
 		{
-			//m_animator.Play("RockMan_Bullet_Effect");
+
+			//Instantiate(explosion, transform.position, transform.rotation); //should use Instantiate to play audio effect instead of Audio.play
+
 			Destroy (other.gameObject);
 			Destroy (gameObject);
-			GetComponent<AudioSource> ().Play ();
 
 		}
 		else if (other.tag == "Boss") 
 		{
-			healthController.BossHealthController();
-			Destroy(gameObject);
+			//audioSource.PlayOneShot(audioClip, 1.0f);
+			//Instantiate(explosion, transform.position, transform.rotation);
 
+			Destroy(gameObject);
+			healthController.BossHealthController();
+		
 			if(healthController.bossHealthGauge <= 0)
 			{
 				Destroy(other.gameObject);
-
 			}
 		}
 

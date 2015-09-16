@@ -45,33 +45,36 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\AudioSourceController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\BlockController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\BrokenBlockController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\CameraController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\CoinController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\Demo.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\IntroCameraController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\LoadingController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\Loop.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\PointController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\SceneNameAttribute.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\StartController.cs" />
-     <Compile Include="Assets\UnityChan2D\Demo\Scripts\TimeController.cs" />
-     <Compile Include="Assets\UnityChan2D\Scripts\UnityChan2DController.cs" />
+     <Compile Include="Assets\Resource\UnityChan2D\Demo\Scripts\Loop.cs" />
+     <Compile Include="Assets\Resource\UnityChan2D\Demo\Scripts\SceneNameAttribute.cs" />
+     <Compile Include="Assets\Resource\UnityChan2D\Scripts\UnityChan2DController.cs" />
+     <Compile Include="Assets\_Scripts\AudioSourceController.cs" />
+     <Compile Include="Assets\_Scripts\BlockController.cs" />
+     <Compile Include="Assets\_Scripts\BrokenBlockController.cs" />
+     <Compile Include="Assets\_Scripts\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\CoinController.cs" />
+     <Compile Include="Assets\_Scripts\Demo.cs" />
+     <Compile Include="Assets\_Scripts\IntroCameraController.cs" />
+     <Compile Include="Assets\_Scripts\LoadingController.cs" />
+     <Compile Include="Assets\_Scripts\PointController.cs" />
      <Compile Include="Assets\_Scripts\RockMan_BackgroundMover.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_BossGenerator.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Boss_Mover.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Bullet_Mover.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Controller.cs" />
      <Compile Include="Assets\_Scripts\RockMan_DestroyByBoundary.cs" />
      <Compile Include="Assets\_Scripts\RockMan_DestroyByContact.cs" />
      <Compile Include="Assets\_Scripts\RockMan_DestroyByEnemy.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_DestroyByTime.cs" />
      <Compile Include="Assets\_Scripts\RockMan_EnemyShootingController.cs" />
+     <Compile Include="Assets\_Scripts\RockMan_Enemy_Explosion.cs" />
      <Compile Include="Assets\_Scripts\RockMan_Enemy_Mover.cs" />
      <Compile Include="Assets\_Scripts\RockMan_GetScore.cs" />
      <Compile Include="Assets\_Scripts\RockMan_HealthController.cs" />
      <Compile Include="Assets\_Scripts\RockMan_TimeWaiting.cs" />
-     <None Include="Assets\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
+     <Compile Include="Assets\_Scripts\StartController.cs" />
+     <Compile Include="Assets\_Scripts\TimeController.cs" />
+     <None Include="Assets\Resource\UnityChan2D\Demo\Sounds\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Resource\Scifi Art Demo Pack\Demo Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
